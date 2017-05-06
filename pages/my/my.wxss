@@ -1,0 +1,11 @@
+/* pages/my/my.wxss */
+.title{
+    fonr-size:14px;
+    color:#f99;
+    padding:14px;
+}
+.last{
+    font-size: 12px;
+    padding-left:14px;
+    color:#666;
+    }

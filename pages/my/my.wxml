@@ -1,0 +1,17 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="height:150px;width:100%"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="title">
+    <text>爱学习的安哈哈~</text> 
+</view>
+<view class="last">
+     <text>体验微信小程序</text>
+</view>
+
+
